@@ -10,29 +10,28 @@ body {
 .div-main {
     width: 100%;
     background-color: #C4C4C4;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    max-width: 1140px;
+    height: 523px;
+    margin: auto;
 }
 
 .div-one {
     background-color: #535353;
-    flex: 1;
-    position: relative;
-    max-width: 496px;
+    width: 45%;
     height: 389px;
-    margin: 20px;  
+    display: inline-block;
+    margin-top: 67px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .div-two {
     background-color: #0041A2;
-    flex: 1;
-    position: relative;
-    max-width: 496px;
+    width: 45%;
     height: 389px;
-    margin: 20px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 67px;
 }
 
 @media screen and (max-width: 428px) {
@@ -40,25 +39,31 @@ body {
     .div-one {
         
         background-color: #535353;
-        flex: 100%;
-        position: relative;
-        max-width: 353px;
-        max-height: 277px;
+        display: inline-block;
+        margin: auto;
         margin: 10px;
+        margin-left: 15%;
+        width: 70%;
+        height: 277px;
       
     }
     .div-two {
         
         background-color: #0027B3;;
-        flex: 100%;
-        position: relative;
-        max-width: 353px;
-        max-height: 277px;
+        display: block;
+        margin: auto;
         margin: 10px;
+        margin-left: 15%;
+        width: 70%;
+        height: 277px;
      
     }
     .div-main {
         background-color: transparent;
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 600px;
     }
 
 }
